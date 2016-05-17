@@ -13,13 +13,12 @@ while len(guess_list) < 5:
         break
     elif guess > the_number:
         print("Your guess is too high.")
-        if (abs(guess - the_number <= 5)):
-            print("But you were really close.")
     else:
         print("Your guess is too low.")
-        if (abs(guess - the_number <= 5)):
-            print("But you were really close.")
+
+    if abs(guess - the_number) <= 5:
+        print("But you were really close.")
     guess_list.append(guess)
 
 else:
-    print("Too many tries. You lose.")
+    print("Too many tries. You lose. The secret number was {}.".format(the_number))
