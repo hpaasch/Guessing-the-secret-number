@@ -1,0 +1,11 @@
+Lovely collaboration in this group of students.
+
+pick_a_number.py is the Normal Mode homework assignment. It includes the optional part.
+
+stumping_the_computer.py is the Hard Mode of the assignment.
+
+helping_computer_guess.py is the Very Hard Mode. it only goes a little ways
+toward making the computer smarter. i think i could probably figure out how to
+capture the "oh, you got close" guess and control the min and max. i had a version
+that would do that, but it reset everytime the guess was close, which seemed
+to actually make it harder.
