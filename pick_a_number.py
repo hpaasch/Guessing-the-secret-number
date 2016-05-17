@@ -1,6 +1,6 @@
 import random
 
-the_number = random.randint(1, 10)
+the_number = random.randint(1, 100)
 guess_list = []
 
 
