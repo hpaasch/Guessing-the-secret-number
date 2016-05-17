@@ -7,7 +7,6 @@ while len(guess_list) < 5:
     computer_guess = random.randint(1, 100)
     print("The computer guessed {}.".format(computer_guess))
     if computer_guess == number:
-        computer_guess = random.randint(1, 100)
         print("Computers are insane! It guessed the number. Game Over!")
         guess_list.append(computer_guess)
         print("It only took the darned thing {} tries." .format(len(guess_list)))
